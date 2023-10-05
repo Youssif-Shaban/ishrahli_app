@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:ishrahli_app1/Screens/Student/highLevel.dart';
 import '../../Login/loginScreen.dart';
 import '../../Shared/components.dart';
 import '../../network/local/cache_helper.dart';
@@ -202,7 +203,7 @@ class HomeScreen extends StatelessWidget {
                     //student item
                     GestureDetector(
                       onTap: () {
-                        navigateTo(context, const StudentScreen());
+                        navigateTo(context, const HighLevelScreen());
                       },
                       child: Column(
                         children: [
